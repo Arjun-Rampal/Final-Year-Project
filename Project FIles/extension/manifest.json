@@ -1,0 +1,16 @@
+{
+    "name": "Youtube transcript summarizer",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "Youtube transcript summarizer",
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "permissions": ["<all_urls>",
+        "storage",
+        "tabs"
+    ]
+}
